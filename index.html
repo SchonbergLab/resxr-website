@@ -3,29 +3,345 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ResXR</title>
+  <title>ResXR - Research with XR</title>
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; padding: 64px 20px; line-height: 1.5; }
-    .wrap { max-width: 860px; margin: 0 auto; }
-    h1 { margin: 0 0 10px; font-size: 44px; }
-    p { font-size: 18px; color: #222; }
-    .muted { color: #666; font-size: 14px; margin-top: 24px; }
-    a { color: inherit; }
-    .card { margin-top: 28px; padding: 18px 18px; border: 1px solid #e6e6e6; border-radius: 12px; }
-    code { background: #f6f6f6; padding: 2px 6px; border-radius: 6px; }
+    * { box-sizing: border-box; }
+    body { 
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; 
+      margin: 0; 
+      padding: 0;
+      line-height: 1.6; 
+      color: #222;
+      background: #fafafa;
+    }
+    .wrap { 
+      max-width: 1200px; 
+      margin: 0 auto; 
+      padding: 64px 20px;
+    }
+    
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      margin-bottom: 80px;
+      padding: 40px 0;
+    }
+    h1 { 
+      margin: 0 0 16px; 
+      font-size: 56px; 
+      font-weight: 700;
+      color: #1a1a1a;
+    }
+    .tagline {
+      font-size: 22px;
+      color: #444;
+      margin: 0 0 24px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .value-prop {
+      font-size: 18px;
+      color: #666;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    
+    /* About Section */
+    .about {
+      margin-bottom: 80px;
+    }
+    h2 {
+      font-size: 36px;
+      margin: 0 0 24px;
+      color: #1a1a1a;
+    }
+    .about-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      margin-bottom: 32px;
+    }
+    @media (max-width: 768px) {
+      .about-content {
+        grid-template-columns: 1fr;
+      }
+    }
+    .about-card {
+      padding: 24px;
+      background: white;
+      border-radius: 12px;
+      border: 1px solid #e6e6e6;
+    }
+    .about-card h3 {
+      margin: 0 0 12px;
+      font-size: 20px;
+      color: #1a1a1a;
+    }
+    .about-card p {
+      margin: 0;
+      color: #444;
+      font-size: 16px;
+    }
+    
+    /* Architecture Section */
+    .architecture {
+      margin-bottom: 80px;
+    }
+    .stages-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      margin-top: 32px;
+    }
+    @media (max-width: 1200px) {
+      .stages-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 768px) {
+      .stages-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .stage-card {
+      padding: 28px;
+      background: white;
+      border-radius: 12px;
+      border: 2px solid #e6e6e6;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+    .stage-card.available {
+      border-color: #2563eb;
+      background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    }
+    .stage-card.coming-soon {
+      opacity: 0.7;
+      background: #f9fafb;
+    }
+    .stage-number {
+      font-size: 14px;
+      font-weight: 600;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+    .stage-card.available .stage-number {
+      color: #2563eb;
+    }
+    .stage-title {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 0 0 12px;
+      color: #1a1a1a;
+    }
+    .stage-description {
+      font-size: 16px;
+      color: #444;
+      margin: 0 0 20px;
+      line-height: 1.6;
+    }
+    .stage-features {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px;
+    }
+    .stage-features li {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 8px;
+      padding-left: 20px;
+      position: relative;
+    }
+    .stage-features li:before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #2563eb;
+      font-weight: bold;
+    }
+    .stage-card.coming-soon .stage-features li:before {
+      color: #999;
+    }
+    .demo-experiments {
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid #e6e6e6;
+    }
+    .demo-experiments-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: #2563eb;
+      margin-bottom: 8px;
+    }
+    .stage-card.coming-soon .demo-experiments-title {
+      color: #999;
+    }
+    .status-badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+    }
+    .status-available {
+      background: #10b981;
+      color: white;
+    }
+    .status-coming-soon {
+      background: #e5e7eb;
+      color: #6b7280;
+    }
+    .github-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 16px;
+      transition: all 0.2s ease;
+      margin-top: 8px;
+    }
+    .github-button:hover {
+      background: #1d4ed8;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    }
+    
+    /* Footer */
+    footer {
+      margin-top: 80px;
+      padding-top: 32px;
+      border-top: 1px solid #e6e6e6;
+      text-align: center;
+    }
+    .muted { 
+      color: #666; 
+      font-size: 14px; 
+    }
+    a { 
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>ResXR</h1>
-    <p>Open-source Unity templates for XR research experiments (formerly TAUXR templates).</p>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>ResXR</h1>
+      <p class="tagline">An open-source, end-to-end toolkit for conducting behavioral XR experiments on Meta standalone head-mounted displays</p>
+      <p class="value-prop">Addressing technical barriers and data standardization in XR research</p>
+    </section>
 
-    <div class="card">
-      <p><strong>Repo:</strong> <a href="https://github.com/YOUR_ORG_OR_USER/YOUR_REPO">github.com/…</a></p>
-      <p><strong>Status:</strong> Landing page now, docs coming soon.</p>
-    </div>
+    <!-- About Section -->
+    <section class="about">
+      <h2>About ResXR</h2>
+      <div class="about-content">
+        <div class="about-card">
+          <h3>The Challenge</h3>
+          <p>Widespread adoption of XR in behavioral research is hindered by high technical barriers and the absence of standardized data formats. Creating immersive experiments demands specialized programming skills, and researchers lack accessible templates designed for scientific applications.</p>
+        </div>
+        <div class="about-card">
+          <h3>The Solution</h3>
+          <p>ResXR provides a Unity-based experiment template for multimodal data capture alongside a Python processing pipeline that automates validation, preprocessing, and quality reporting, inspired by established neuroimaging tools like fMRIPrep.</p>
+        </div>
+      </div>
+      <div class="about-content">
+        <div class="about-card">
+          <h3>Target Platform</h3>
+          <p>Meta standalone headsets (Quest 2, Quest Pro, Quest 3)</p>
+        </div>
+        <div class="about-card">
+          <h3>Output Format</h3>
+          <p>Motion-BIDS compatible data for reproducible research</p>
+        </div>
+      </div>
+    </section>
 
-    <p class="muted">© ResXR • <span id="y"></span></p>
+    <!-- Architecture/Stages Section -->
+    <section class="architecture">
+      <h2>ResXR Architecture</h2>
+      <p style="font-size: 18px; color: #666; margin-bottom: 32px;">ResXR comprises four hierarchical stages spanning Unity-based data collection and Python-based post-processing</p>
+      
+      <div class="stages-grid">
+        <!-- Stage 0: Base Template -->
+        <div class="stage-card available">
+          <span class="stage-number">Stage 0</span>
+          <h3 class="stage-title">Base Template</h3>
+          <span class="status-badge status-available">Available</span>
+          <p class="stage-description">Unity-based experiment template for multimodal data capture</p>
+          <ul class="stage-features">
+            <li>Head, hand, eye, and face tracking</li>
+            <li>ResXRPlayer, ResXREyeTracker, ResXRDataManager components</li>
+            <li>Automatic trial logging and synchronized data collection</li>
+          </ul>
+          <div class="demo-experiments">
+            <div class="demo-experiments-title">Demo Experiments Included:</div>
+            <ul class="stage-features">
+              <li>Binary Choice (2AFC paradigm with paired visual stimuli)</li>
+              <li>Maze Navigation (spatial wayfinding task with trajectory capture)</li>
+              <li>Museum Viewing (free-exploration gallery for eye-tracking studies)</li>
+            </ul>
+          </div>
+          <a href="https://github.com/NoaTAU/TAUXR-Research-Template-Updated" class="github-button" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+        </div>
+
+        <!-- Stage 1: Data Validity -->
+        <div class="stage-card coming-soon">
+          <span class="stage-number">Stage 1</span>
+          <h3 class="stage-title">Data Validity</h3>
+          <span class="status-badge status-coming-soon">Coming Soon</span>
+          <p class="stage-description">Quality checks and validation</p>
+          <ul class="stage-features">
+            <li>Configurable quality checks (e.g., tracking loss detection)</li>
+            <li>Quality flags generation</li>
+            <li>Automated validation pipeline</li>
+          </ul>
+        </div>
+
+        <!-- Stage 2: Data Filtration -->
+        <div class="stage-card coming-soon">
+          <span class="stage-number">Stage 2</span>
+          <h3 class="stage-title">Data Filtration</h3>
+          <span class="status-badge status-coming-soon">Coming Soon</span>
+          <p class="stage-description">Preprocessing pipeline</p>
+          <ul class="stage-features">
+            <li>Excludes flagged segments</li>
+            <li>Computes derived measures</li>
+            <li>Automated preprocessing workflow</li>
+          </ul>
+        </div>
+
+        <!-- Stage 3: Data Presentation -->
+        <div class="stage-card coming-soon">
+          <span class="stage-number">Stage 3</span>
+          <h3 class="stage-title">Data Presentation</h3>
+          <span class="status-badge status-coming-soon">Coming Soon</span>
+          <p class="stage-description">Reports and export</p>
+          <ul class="stage-features">
+            <li>Comprehensive HTML reports with diagnostic plots</li>
+            <li>Analysis-ready export</li>
+            <li>Visual quality assurance reports</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p class="muted">© ResXR • <span id="y"></span></p>
+    </footer>
   </div>
   <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
 </body>
