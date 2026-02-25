@@ -1,0 +1,25 @@
+{
+  "id": "api-reference/resxrplayer",
+  "title": "ResXRPlayer",
+  "description": "Location: Assets/ResXR/Base Scene/ResXRPlayer/",
+  "source": "@site/docs/api-reference/resxrplayer.md",
+  "sourceDirName": "api-reference",
+  "slug": "/api-reference/resxrplayer",
+  "permalink": "/unity-template-docs/api-reference/resxrplayer",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ResXRPlayer"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Pipeline",
+    "permalink": "/unity-template-docs/core-concepts/data-pipeline"
+  },
+  "next": {
+    "title": "ResXREyeTracker",
+    "permalink": "/unity-template-docs/api-reference/resxreyetracker"
+  }
+}

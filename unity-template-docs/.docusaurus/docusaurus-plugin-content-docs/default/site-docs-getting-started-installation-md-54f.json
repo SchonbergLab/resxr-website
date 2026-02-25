@@ -1,0 +1,25 @@
+{
+  "id": "getting-started/installation",
+  "title": "Installation",
+  "description": "Requirements",
+  "source": "@site/docs/getting-started/installation.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/installation",
+  "permalink": "/unity-template-docs/getting-started/installation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Installation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Unity Template Docs",
+    "permalink": "/unity-template-docs/"
+  },
+  "next": {
+    "title": "Quick Start",
+    "permalink": "/unity-template-docs/getting-started/quick-start"
+  }
+}

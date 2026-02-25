@@ -1,0 +1,25 @@
+{
+  "id": "advanced/custom-collectors",
+  "title": "Custom collectors",
+  "description": "ResXRDataManager_V2 uses collectors to fill RowBuffer per tick.",
+  "source": "@site/docs/advanced/custom-collectors.md",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/custom-collectors",
+  "permalink": "/unity-template-docs/advanced/custom-collectors",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Custom collectors"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BIDS export pipeline",
+    "permalink": "/unity-template-docs/data-and-bids/bids-export-pipeline"
+  },
+  "next": {
+    "title": "Multi-experiment setup",
+    "permalink": "/unity-template-docs/advanced/multi-experiment-setup"
+  }
+}

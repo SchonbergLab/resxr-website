@@ -1,0 +1,25 @@
+{
+  "id": "getting-started/base-scene-explained",
+  "title": "Base Scene Explained",
+  "description": "What is the Base Scene?",
+  "source": "@site/docs/getting-started/base-scene-explained.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/base-scene-explained",
+  "permalink": "/unity-template-docs/getting-started/base-scene-explained",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Base Scene Explained"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quick Start",
+    "permalink": "/unity-template-docs/getting-started/quick-start"
+  },
+  "next": {
+    "title": "Flow Management",
+    "permalink": "/unity-template-docs/core-concepts/flow-management"
+  }
+}

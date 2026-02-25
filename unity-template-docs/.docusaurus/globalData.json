@@ -1,0 +1,133 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/unity-template-docs/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/unity-template-docs/",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "advanced/custom-collectors",
+              "path": "/unity-template-docs/advanced/custom-collectors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "advanced/multi-experiment-setup",
+              "path": "/unity-template-docs/advanced/multi-experiment-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "advanced/performance-notes",
+              "path": "/unity-template-docs/advanced/performance-notes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-reference/ovreyescollector",
+              "path": "/unity-template-docs/api-reference/ovreyescollector",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-reference/resxrdatamanager-v2",
+              "path": "/unity-template-docs/api-reference/resxrdatamanager-v2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-reference/resxreyetracker",
+              "path": "/unity-template-docs/api-reference/resxreyetracker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-reference/resxrplayer",
+              "path": "/unity-template-docs/api-reference/resxrplayer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-reference/roundmanager",
+              "path": "/unity-template-docs/api-reference/roundmanager",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-reference/sessionmanager",
+              "path": "/unity-template-docs/api-reference/sessionmanager",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-reference/trialmanager",
+              "path": "/unity-template-docs/api-reference/trialmanager",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "core-concepts/data-pipeline",
+              "path": "/unity-template-docs/core-concepts/data-pipeline",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "core-concepts/flow-management",
+              "path": "/unity-template-docs/core-concepts/flow-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "core-concepts/recording-options",
+              "path": "/unity-template-docs/core-concepts/recording-options",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "core-concepts/reference-frames",
+              "path": "/unity-template-docs/core-concepts/reference-frames",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-and-bids/bids-export-pipeline",
+              "path": "/unity-template-docs/data-and-bids/bids-export-pipeline",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-and-bids/continuousdata-schema",
+              "path": "/unity-template-docs/data-and-bids/continuousdata-schema",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-and-bids/metadata-schema",
+              "path": "/unity-template-docs/data-and-bids/metadata-schema",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/base-scene-explained",
+              "path": "/unity-template-docs/getting-started/base-scene-explained",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/unity-template-docs/getting-started/installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/quick-start",
+              "path": "/unity-template-docs/getting-started/quick-start",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/unity-template-docs/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/unity-template-docs/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

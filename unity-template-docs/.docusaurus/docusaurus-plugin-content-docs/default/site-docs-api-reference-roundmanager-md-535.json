@@ -1,0 +1,25 @@
+{
+  "id": "api-reference/roundmanager",
+  "title": "RoundManager",
+  "description": "ResXR's Flow system is Session → Task → Trial.",
+  "source": "@site/docs/api-reference/roundmanager.md",
+  "sourceDirName": "api-reference",
+  "slug": "/api-reference/roundmanager",
+  "permalink": "/unity-template-docs/api-reference/roundmanager",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "RoundManager"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SessionManager",
+    "permalink": "/unity-template-docs/api-reference/sessionmanager"
+  },
+  "next": {
+    "title": "TrialManager",
+    "permalink": "/unity-template-docs/api-reference/trialmanager"
+  }
+}

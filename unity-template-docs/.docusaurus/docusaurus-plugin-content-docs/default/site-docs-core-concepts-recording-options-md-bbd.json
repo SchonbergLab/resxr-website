@@ -1,0 +1,25 @@
+{
+  "id": "core-concepts/recording-options",
+  "title": "Recording Options",
+  "description": "Recording options live on ResXRDataManagerV2 (Inspector). They control schema columns + collector behavior.",
+  "source": "@site/docs/core-concepts/recording-options.md",
+  "sourceDirName": "core-concepts",
+  "slug": "/core-concepts/recording-options",
+  "permalink": "/unity-template-docs/core-concepts/recording-options",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Recording Options"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Flow Management",
+    "permalink": "/unity-template-docs/core-concepts/flow-management"
+  },
+  "next": {
+    "title": "Reference Frames",
+    "permalink": "/unity-template-docs/core-concepts/reference-frames"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "advanced/multi-experiment-setup",
+  "title": "Multi-experiment setup",
+  "description": "Recommended default:",
+  "source": "@site/docs/advanced/multi-experiment-setup.md",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/multi-experiment-setup",
+  "permalink": "/unity-template-docs/advanced/multi-experiment-setup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Multi-experiment setup"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Custom collectors",
+    "permalink": "/unity-template-docs/advanced/custom-collectors"
+  },
+  "next": {
+    "title": "Performance notes",
+    "permalink": "/unity-template-docs/advanced/performance-notes"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "getting-started/quick-start",
+  "title": "Quick Start",
+  "description": "1) Choose a Base Scene",
+  "source": "@site/docs/getting-started/quick-start.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/quick-start",
+  "permalink": "/unity-template-docs/getting-started/quick-start",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Quick Start"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/unity-template-docs/getting-started/installation"
+  },
+  "next": {
+    "title": "Base Scene Explained",
+    "permalink": "/unity-template-docs/getting-started/base-scene-explained"
+  }
+}

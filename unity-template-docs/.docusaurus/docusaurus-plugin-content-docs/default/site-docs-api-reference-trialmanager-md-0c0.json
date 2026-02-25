@@ -1,0 +1,25 @@
+{
+  "id": "api-reference/trialmanager",
+  "title": "TrialManager",
+  "description": "Location: Assets/ResXR/Flow Management/TrialManager.cs",
+  "source": "@site/docs/api-reference/trialmanager.md",
+  "sourceDirName": "api-reference",
+  "slug": "/api-reference/trialmanager",
+  "permalink": "/unity-template-docs/api-reference/trialmanager",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "TrialManager"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RoundManager",
+    "permalink": "/unity-template-docs/api-reference/roundmanager"
+  },
+  "next": {
+    "title": "ContinuousData schema",
+    "permalink": "/unity-template-docs/data-and-bids/continuousdata-schema"
+  }
+}

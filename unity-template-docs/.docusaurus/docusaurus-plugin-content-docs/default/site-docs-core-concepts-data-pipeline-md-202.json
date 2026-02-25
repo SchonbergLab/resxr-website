@@ -1,0 +1,25 @@
+{
+  "id": "core-concepts/data-pipeline",
+  "title": "Data Pipeline",
+  "description": "Overview",
+  "source": "@site/docs/core-concepts/data-pipeline.md",
+  "sourceDirName": "core-concepts",
+  "slug": "/core-concepts/data-pipeline",
+  "permalink": "/unity-template-docs/core-concepts/data-pipeline",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Data Pipeline"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reference Frames",
+    "permalink": "/unity-template-docs/core-concepts/reference-frames"
+  },
+  "next": {
+    "title": "ResXRPlayer",
+    "permalink": "/unity-template-docs/api-reference/resxrplayer"
+  }
+}

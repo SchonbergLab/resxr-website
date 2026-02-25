@@ -1,0 +1,142 @@
+{
+  "/unity-template-docs/__docusaurus/debug-13c": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---unity-template-docs-docusaurus-debugb-38-839"
+    }
+  },
+  "/unity-template-docs/__docusaurus/debug/config-956": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---unity-template-docs-docusaurus-debugb-38-839"
+    }
+  },
+  "/unity-template-docs/__docusaurus/debug/content-3a1": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---unity-template-docs-docusaurus-debugb-38-839"
+    },
+    "__props": "__props---unity-template-docs-docusaurus-debug-content-33-b-693"
+  },
+  "/unity-template-docs/__docusaurus/debug/globalData-5c8": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---unity-template-docs-docusaurus-debugb-38-839"
+    }
+  },
+  "/unity-template-docs/__docusaurus/debug/metadata-368": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---unity-template-docs-docusaurus-debugb-38-839"
+    }
+  },
+  "/unity-template-docs/__docusaurus/debug/registry-a0c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---unity-template-docs-docusaurus-debugb-38-839"
+    }
+  },
+  "/unity-template-docs/__docusaurus/debug/routes-cc7": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---unity-template-docs-docusaurus-debugb-38-839"
+    }
+  },
+  "/unity-template-docs/-8fa": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---unity-template-docs-aba-0cc"
+    }
+  },
+  "/unity-template-docs/-9b5": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---unity-template-docs-7-fd-447"
+  },
+  "/unity-template-docs/-8cd": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/unity-template-docs/advanced/custom-collectors-3bf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-advanced-custom-collectors-8-d-5-958"
+  },
+  "/unity-template-docs/advanced/multi-experiment-setup-fa2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-advanced-multi-experiment-setupd-51-48c"
+  },
+  "/unity-template-docs/advanced/performance-notes-963": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-advanced-performance-notesc-0-a-68c"
+  },
+  "/unity-template-docs/api-reference/ovreyescollector-3ba": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-api-reference-ovreyescollectorf-25-5f9"
+  },
+  "/unity-template-docs/api-reference/resxrdatamanager-v2-225": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-api-reference-resxrdatamanager-v-2-c-2-c-03e"
+  },
+  "/unity-template-docs/api-reference/resxreyetracker-6dd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-api-reference-resxreyetracker-820-6c2"
+  },
+  "/unity-template-docs/api-reference/resxrplayer-69c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-api-reference-resxrplayerfe-9-9ea"
+  },
+  "/unity-template-docs/api-reference/roundmanager-670": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-api-reference-roundmanager-535-7a5"
+  },
+  "/unity-template-docs/api-reference/sessionmanager-af5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-api-reference-sessionmanager-06-e-d11"
+  },
+  "/unity-template-docs/api-reference/trialmanager-327": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-api-reference-trialmanager-0-c-0-3a5"
+  },
+  "/unity-template-docs/core-concepts/data-pipeline-034": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-core-concepts-data-pipeline-202-978"
+  },
+  "/unity-template-docs/core-concepts/flow-management-75c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-core-concepts-flow-management-063-4de"
+  },
+  "/unity-template-docs/core-concepts/recording-options-aa5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-core-concepts-recording-optionsbbd-955"
+  },
+  "/unity-template-docs/core-concepts/reference-frames-dce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-core-concepts-reference-frames-7-fb-65a"
+  },
+  "/unity-template-docs/data-and-bids/bids-export-pipeline-064": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-data-and-bids-bids-export-pipeline-3-dc-2fa"
+  },
+  "/unity-template-docs/data-and-bids/continuousdata-schema-1d8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-data-and-bids-continuousdata-schema-46-f-46e"
+  },
+  "/unity-template-docs/data-and-bids/metadata-schema-b11": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-data-and-bids-metadata-schemab-38-83e"
+  },
+  "/unity-template-docs/getting-started/base-scene-explained-ce9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-getting-started-base-scene-explained-347-3f9"
+  },
+  "/unity-template-docs/getting-started/installation-70e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-getting-started-installation-54-f-d6c"
+  },
+  "/unity-template-docs/getting-started/quick-start-8ea": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-getting-started-quick-start-588-486"
+  },
+  "/unity-template-docs/-fbe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---unity-template-docs-c-37-1dc"
+  }
+}

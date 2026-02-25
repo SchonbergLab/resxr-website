@@ -1,0 +1,25 @@
+{
+  "id": "data-and-bids/metadata-schema",
+  "title": "Metadata schema",
+  "description": "ResXR writes one JSON per session:",
+  "source": "@site/docs/data-and-bids/metadata-schema.md",
+  "sourceDirName": "data-and-bids",
+  "slug": "/data-and-bids/metadata-schema",
+  "permalink": "/unity-template-docs/data-and-bids/metadata-schema",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Metadata schema"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ContinuousData schema",
+    "permalink": "/unity-template-docs/data-and-bids/continuousdata-schema"
+  },
+  "next": {
+    "title": "BIDS export pipeline",
+    "permalink": "/unity-template-docs/data-and-bids/bids-export-pipeline"
+  }
+}

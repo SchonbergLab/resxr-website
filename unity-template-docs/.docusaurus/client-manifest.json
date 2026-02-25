@@ -1,0 +1,391 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      237
+    ],
+    "17896441": [
+      869,
+      401
+    ],
+    "53521404": [
+      153
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "0633429c": [
+      697
+    ],
+    "06e27ea1": [
+      834
+    ],
+    "0c09590f": [
+      385
+    ],
+    "202df66b": [
+      711
+    ],
+    "347daeec": [
+      853
+    ],
+    "3dc9cf15": [
+      195
+    ],
+    "46f582a3": [
+      28
+    ],
+    "54f44165": [
+      924
+    ],
+    "588bd741": [
+      324
+    ],
+    "5e95c892": [
+      647
+    ],
+    "7fbf0075": [
+      552
+    ],
+    "7fdb7e81": [
+      43
+    ],
+    "8207eb55": [
+      257
+    ],
+    "8d5bc92c": [
+      487
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "aba21aa0": [
+      742
+    ],
+    "b3884349": [
+      916
+    ],
+    "bbded65b": [
+      801
+    ],
+    "c0a86772": [
+      979
+    ],
+    "c2ca09df": [
+      891
+    ],
+    "c377a04b": [
+      361
+    ],
+    "d512420e": [
+      184
+    ],
+    "f254a822": [
+      491
+    ],
+    "fe9c8350": [
+      176
+    ],
+    "styles": [
+      48,
+      354,
+      401,
+      792,
+      869
+    ]
+  },
+  "assets": {
+    "28": {
+      "js": [
+        {
+          "file": "assets/js/46f582a3.46bfa419.js",
+          "hash": "ce2fc4ce28adbe7b",
+          "publicPath": "/unity-template-docs/assets/js/46f582a3.46bfa419.js"
+        }
+      ]
+    },
+    "43": {
+      "js": [
+        {
+          "file": "assets/js/7fdb7e81.c784378e.js",
+          "hash": "d17e741e758c4605",
+          "publicPath": "/unity-template-docs/assets/js/7fdb7e81.c784378e.js"
+        }
+      ]
+    },
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.adbbb711.js",
+          "hash": "57be0f9da1e7605e",
+          "publicPath": "/unity-template-docs/assets/js/a94703ab.adbbb711.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.aca46f76.js",
+          "hash": "7ebe79ec75bd5d0a",
+          "publicPath": "/unity-template-docs/assets/js/a7bd4aaa.aca46f76.js"
+        }
+      ]
+    },
+    "153": {
+      "js": [
+        {
+          "file": "assets/js/53521404.05c86f77.js",
+          "hash": "0ab5f6d6e42e0f64",
+          "publicPath": "/unity-template-docs/assets/js/53521404.05c86f77.js"
+        }
+      ]
+    },
+    "176": {
+      "js": [
+        {
+          "file": "assets/js/fe9c8350.71a1206a.js",
+          "hash": "5c76b658f2c5e854",
+          "publicPath": "/unity-template-docs/assets/js/fe9c8350.71a1206a.js"
+        }
+      ]
+    },
+    "184": {
+      "js": [
+        {
+          "file": "assets/js/d512420e.0e422edf.js",
+          "hash": "10e9460c7aa55568",
+          "publicPath": "/unity-template-docs/assets/js/d512420e.0e422edf.js"
+        }
+      ]
+    },
+    "195": {
+      "js": [
+        {
+          "file": "assets/js/3dc9cf15.cb873146.js",
+          "hash": "ab4f83ee6b817208",
+          "publicPath": "/unity-template-docs/assets/js/3dc9cf15.cb873146.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.72647946.js",
+          "hash": "d1690b643b5e51b3",
+          "publicPath": "/unity-template-docs/assets/js/237.72647946.js"
+        }
+      ]
+    },
+    "257": {
+      "js": [
+        {
+          "file": "assets/js/8207eb55.6705a023.js",
+          "hash": "2a012adf69b42b5a",
+          "publicPath": "/unity-template-docs/assets/js/8207eb55.6705a023.js"
+        }
+      ]
+    },
+    "324": {
+      "js": [
+        {
+          "file": "assets/js/588bd741.55423544.js",
+          "hash": "c6ecdb8f9b0c1203",
+          "publicPath": "/unity-template-docs/assets/js/588bd741.55423544.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.251543b7.js",
+          "hash": "51778577a4388322",
+          "publicPath": "/unity-template-docs/assets/js/runtime~main.251543b7.js"
+        }
+      ]
+    },
+    "361": {
+      "js": [
+        {
+          "file": "assets/js/c377a04b.7e17f0de.js",
+          "hash": "b3c3739f28851ade",
+          "publicPath": "/unity-template-docs/assets/js/c377a04b.7e17f0de.js"
+        }
+      ]
+    },
+    "385": {
+      "js": [
+        {
+          "file": "assets/js/0c09590f.e5728c5c.js",
+          "hash": "9bc48904c68dbc98",
+          "publicPath": "/unity-template-docs/assets/js/0c09590f.e5728c5c.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.9634093a.js",
+          "hash": "57c93c83951fd5f3",
+          "publicPath": "/unity-template-docs/assets/js/17896441.9634093a.js"
+        }
+      ]
+    },
+    "487": {
+      "js": [
+        {
+          "file": "assets/js/8d5bc92c.6ecf6b6c.js",
+          "hash": "c9113e9ce393d4dd",
+          "publicPath": "/unity-template-docs/assets/js/8d5bc92c.6ecf6b6c.js"
+        }
+      ]
+    },
+    "491": {
+      "js": [
+        {
+          "file": "assets/js/f254a822.9167e24e.js",
+          "hash": "4a5dbecbcfefe721",
+          "publicPath": "/unity-template-docs/assets/js/f254a822.9167e24e.js"
+        }
+      ]
+    },
+    "552": {
+      "js": [
+        {
+          "file": "assets/js/7fbf0075.e0f2a420.js",
+          "hash": "7dafae38efbe2303",
+          "publicPath": "/unity-template-docs/assets/js/7fbf0075.e0f2a420.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.d8ee87cf.js",
+          "hash": "d373f7cf560c1213",
+          "publicPath": "/unity-template-docs/assets/js/5e95c892.d8ee87cf.js"
+        }
+      ]
+    },
+    "697": {
+      "js": [
+        {
+          "file": "assets/js/0633429c.19548046.js",
+          "hash": "a7e5f4862ac670e5",
+          "publicPath": "/unity-template-docs/assets/js/0633429c.19548046.js"
+        }
+      ]
+    },
+    "711": {
+      "js": [
+        {
+          "file": "assets/js/202df66b.add26d24.js",
+          "hash": "8c1f18eac31ca667",
+          "publicPath": "/unity-template-docs/assets/js/202df66b.add26d24.js"
+        }
+      ]
+    },
+    "742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.01f80a2e.js",
+          "hash": "a3366396320a6d1a",
+          "publicPath": "/unity-template-docs/assets/js/aba21aa0.01f80a2e.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.f0c17f42.js",
+          "hash": "69b30078f79ffc7e",
+          "publicPath": "/unity-template-docs/assets/js/main.f0c17f42.js"
+        }
+      ]
+    },
+    "801": {
+      "js": [
+        {
+          "file": "assets/js/bbded65b.2d5ff3dd.js",
+          "hash": "0ad953ce8430f9bf",
+          "publicPath": "/unity-template-docs/assets/js/bbded65b.2d5ff3dd.js"
+        }
+      ]
+    },
+    "834": {
+      "js": [
+        {
+          "file": "assets/js/06e27ea1.58d51e14.js",
+          "hash": "1fa367544da0076e",
+          "publicPath": "/unity-template-docs/assets/js/06e27ea1.58d51e14.js"
+        }
+      ]
+    },
+    "853": {
+      "js": [
+        {
+          "file": "assets/js/347daeec.315a2fcc.js",
+          "hash": "554b46c624546350",
+          "publicPath": "/unity-template-docs/assets/js/347daeec.315a2fcc.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.d6f33fd8.css",
+          "hash": "387cf00457af75b1",
+          "publicPath": "/unity-template-docs/assets/css/styles.d6f33fd8.css"
+        }
+      ]
+    },
+    "891": {
+      "js": [
+        {
+          "file": "assets/js/c2ca09df.4efbc45f.js",
+          "hash": "1d5be28662dc44a2",
+          "publicPath": "/unity-template-docs/assets/js/c2ca09df.4efbc45f.js"
+        }
+      ]
+    },
+    "916": {
+      "js": [
+        {
+          "file": "assets/js/b3884349.82a29450.js",
+          "hash": "843d5afce99f7481",
+          "publicPath": "/unity-template-docs/assets/js/b3884349.82a29450.js"
+        }
+      ]
+    },
+    "924": {
+      "js": [
+        {
+          "file": "assets/js/54f44165.8232692f.js",
+          "hash": "af213df58d16e730",
+          "publicPath": "/unity-template-docs/assets/js/54f44165.8232692f.js"
+        }
+      ]
+    },
+    "979": {
+      "js": [
+        {
+          "file": "assets/js/c0a86772.3f71980b.js",
+          "hash": "181486a0af9e2a95",
+          "publicPath": "/unity-template-docs/assets/js/c0a86772.3f71980b.js"
+        }
+      ]
+    }
+  }
+}

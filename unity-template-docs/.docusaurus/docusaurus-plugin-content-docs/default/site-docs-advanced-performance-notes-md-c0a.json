@@ -1,0 +1,21 @@
+{
+  "id": "advanced/performance-notes",
+  "title": "Performance notes",
+  "description": "Eye raycasts",
+  "source": "@site/docs/advanced/performance-notes.md",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/performance-notes",
+  "permalink": "/unity-template-docs/advanced/performance-notes",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Performance notes"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Multi-experiment setup",
+    "permalink": "/unity-template-docs/advanced/multi-experiment-setup"
+  }
+}

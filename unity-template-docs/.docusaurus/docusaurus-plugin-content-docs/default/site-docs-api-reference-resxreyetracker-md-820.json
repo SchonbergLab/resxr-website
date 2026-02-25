@@ -1,0 +1,25 @@
+{
+  "id": "api-reference/resxreyetracker",
+  "title": "ResXREyeTracker",
+  "description": "Location: Assets/ResXR/Base Scene/ResXRPlayer/ResXR Eye Tracker/ResXREyeTracker.cs",
+  "source": "@site/docs/api-reference/resxreyetracker.md",
+  "sourceDirName": "api-reference",
+  "slug": "/api-reference/resxreyetracker",
+  "permalink": "/unity-template-docs/api-reference/resxreyetracker",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ResXREyeTracker"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ResXRPlayer",
+    "permalink": "/unity-template-docs/api-reference/resxrplayer"
+  },
+  "next": {
+    "title": "ResXRDataManager_V2",
+    "permalink": "/unity-template-docs/api-reference/resxrdatamanager-v2"
+  }
+}

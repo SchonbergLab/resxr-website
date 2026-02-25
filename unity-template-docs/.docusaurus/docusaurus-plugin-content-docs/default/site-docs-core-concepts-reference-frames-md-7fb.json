@@ -1,0 +1,25 @@
+{
+  "id": "core-concepts/reference-frames",
+  "title": "Reference Frames",
+  "description": "Key idea",
+  "source": "@site/docs/core-concepts/reference-frames.md",
+  "sourceDirName": "core-concepts",
+  "slug": "/core-concepts/reference-frames",
+  "permalink": "/unity-template-docs/core-concepts/reference-frames",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Reference Frames"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recording Options",
+    "permalink": "/unity-template-docs/core-concepts/recording-options"
+  },
+  "next": {
+    "title": "Data Pipeline",
+    "permalink": "/unity-template-docs/core-concepts/data-pipeline"
+  }
+}

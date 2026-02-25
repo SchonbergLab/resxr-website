@@ -1,0 +1,25 @@
+{
+  "id": "core-concepts/flow-management",
+  "title": "Flow Management",
+  "description": "Purpose",
+  "source": "@site/docs/core-concepts/flow-management.md",
+  "sourceDirName": "core-concepts",
+  "slug": "/core-concepts/flow-management",
+  "permalink": "/unity-template-docs/core-concepts/flow-management",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Flow Management"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Base Scene Explained",
+    "permalink": "/unity-template-docs/getting-started/base-scene-explained"
+  },
+  "next": {
+    "title": "Recording Options",
+    "permalink": "/unity-template-docs/core-concepts/recording-options"
+  }
+}
