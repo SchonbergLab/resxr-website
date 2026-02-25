@@ -3,38 +3,8 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/unity-template-docs/__docusaurus/debug',
-    component: ComponentCreator('/unity-template-docs/__docusaurus/debug', '13c'),
-    exact: true
-  },
-  {
-    path: '/unity-template-docs/__docusaurus/debug/config',
-    component: ComponentCreator('/unity-template-docs/__docusaurus/debug/config', '956'),
-    exact: true
-  },
-  {
-    path: '/unity-template-docs/__docusaurus/debug/content',
-    component: ComponentCreator('/unity-template-docs/__docusaurus/debug/content', '3a1'),
-    exact: true
-  },
-  {
-    path: '/unity-template-docs/__docusaurus/debug/globalData',
-    component: ComponentCreator('/unity-template-docs/__docusaurus/debug/globalData', '5c8'),
-    exact: true
-  },
-  {
-    path: '/unity-template-docs/__docusaurus/debug/metadata',
-    component: ComponentCreator('/unity-template-docs/__docusaurus/debug/metadata', '368'),
-    exact: true
-  },
-  {
-    path: '/unity-template-docs/__docusaurus/debug/registry',
-    component: ComponentCreator('/unity-template-docs/__docusaurus/debug/registry', 'a0c'),
-    exact: true
-  },
-  {
-    path: '/unity-template-docs/__docusaurus/debug/routes',
-    component: ComponentCreator('/unity-template-docs/__docusaurus/debug/routes', 'cc7'),
+    path: '/unity-template-docs/search',
+    component: ComponentCreator('/unity-template-docs/search', 'ae8'),
     exact: true
   },
   {

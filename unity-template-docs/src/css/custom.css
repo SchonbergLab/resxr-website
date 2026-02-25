@@ -1,3 +1,8 @@
 /**
  * ResXR Unity Template Docs - Custom styles
  */
+
+/* Hide Ctrl+K keyboard shortcut from search bar */
+.DocSearch-Button-Keys {
+  display: none !important;
+}

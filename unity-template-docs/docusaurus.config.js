@@ -5,7 +5,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'ResXR Unity Template Docs',
   tagline: 'Documentation for the ResXR Unity research template',
-  favicon: 'img/logo.svg',
+  favicon: 'img/ResXR.jpg',
 
   future: {
     v4: true,
@@ -23,6 +23,20 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: [
+    [
+      require.resolve('docusaurus-plugin-search-local'),
+      {
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: '/',
+        searchResultLimits: 10,
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -53,7 +67,7 @@ const config = {
         title: 'Unity Template Docs',
         logo: {
           alt: 'ResXR Logo',
-          src: 'img/logo.svg',
+          src: 'img/ResXR.jpg',
         },
         items: [
           {

@@ -6,7 +6,7 @@
 export default {
   "title": "ResXR Unity Template Docs",
   "tagline": "Documentation for the ResXR Unity research template",
-  "favicon": "img/logo.svg",
+  "favicon": "img/ResXR.jpg",
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": true,
@@ -41,6 +41,19 @@ export default {
     "path": "i18n",
     "localeConfigs": {}
   },
+  "plugins": [
+    [
+      "D:\\ResXR\\resxr-website\\unity-template-docs\\node_modules\\docusaurus-plugin-search-local\\lib\\server\\index.js",
+      {
+        "hashed": true,
+        "indexDocs": true,
+        "indexBlog": false,
+        "indexPages": false,
+        "docsRouteBasePath": "/",
+        "searchResultLimits": 10
+      }
+    ]
+  ],
   "presets": [
     [
       "classic",
@@ -66,7 +79,7 @@ export default {
       "title": "Unity Template Docs",
       "logo": {
         "alt": "ResXR Logo",
-        "src": "img/logo.svg"
+        "src": "img/ResXR.jpg"
       },
       "items": [
         {
@@ -331,7 +344,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],
