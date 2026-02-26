@@ -50,7 +50,8 @@ export default {
         "indexBlog": false,
         "indexPages": false,
         "docsRouteBasePath": "/",
-        "searchResultLimits": 10
+        "searchResultLimits": 10,
+        "removeDefaultStopWordFilter": true
       }
     ]
   ],

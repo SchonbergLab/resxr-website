@@ -133,7 +133,7 @@
   "docusaurus-plugin-search-local": {
     "default": {
       "externalSearchSources": [],
-      "removeDefaultStopWordFilter": false,
+      "removeDefaultStopWordFilter": true,
       "searchResultContextMaxLength": 50,
       "searchResultLimits": 10,
       "translations": {

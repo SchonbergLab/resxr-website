@@ -2,7 +2,11 @@
  * ResXR Unity Template Docs - Custom styles
  */
 
-/* Hide Ctrl+K keyboard shortcut from search bar */
-.DocSearch-Button-Keys {
+/* Hide Ctrl+K keyboard shortcut from search bar (works for both Algolia and local search) */
+.DocSearch-Button-Keys,
+.DocSearch-Button-Placeholder + kbd,
+.navbar__search kbd,
+[class*="search"] kbd,
+[class*="Search"] kbd {
   display: none !important;
 }

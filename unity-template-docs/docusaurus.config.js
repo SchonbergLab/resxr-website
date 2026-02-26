@@ -34,6 +34,7 @@ const config = {
         indexPages: false,
         docsRouteBasePath: '/',
         searchResultLimits: 10,
+        removeDefaultStopWordFilter: true,
       },
     ],
   ],
