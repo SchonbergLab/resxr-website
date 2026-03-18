@@ -37,6 +37,8 @@ jobs:
           # Create deployment root with homepage
           mkdir -p deploy
           cp index.html deploy/
+          # Include homepage static assets
+          if [ -d Logos ]; then cp -r Logos deploy/; fi
           if [ -f CNAME ]; then cp CNAME deploy/; fi
           # Copy Docusaurus build output to unity-template-docs subfolder
           cp -r unity-template-docs/build deploy/unity-template-docs
