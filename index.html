@@ -90,14 +90,12 @@
     }
     .stages-grid {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
       gap: 24px;
-      margin-top: 32px;
-    }
-    @media (max-width: 1200px) {
-      .stages-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
+      margin: 32px auto 0;
+      max-width: 1200px;
+      justify-content: center;
+      justify-items: center;
     }
     @media (max-width: 768px) {
       .stages-grid {
@@ -111,6 +109,8 @@
       border: 2px solid #e6e6e6;
       transition: all 0.3s ease;
       position: relative;
+      width: 100%;
+      max-width: 560px;
     }
     .stage-card.available {
       border-color: #2563eb;
@@ -220,6 +220,35 @@
       gap: 12px;
       margin-top: 8px;
     }
+
+    /* Supported by */
+    .supported-by {
+      margin-top: 72px;
+      padding-top: 28px;
+      border-top: 1px solid #e6e6e6;
+      text-align: center;
+    }
+    .supported-by-label {
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #6b7280;
+      margin-bottom: 14px;
+      font-weight: 700;
+    }
+    .supported-by-logos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 22px;
+    }
+    .supported-by-logos img {
+      height: var(--logo-h, 44px);
+      width: auto;
+      max-width: min(220px, 42vw);
+      object-fit: contain;
+    }
     
     /* Footer */
     footer {
@@ -278,12 +307,12 @@
     <!-- Architecture/Stages Section -->
     <section class="architecture">
       <h2>ResXR Architecture</h2>
-      <p style="font-size: 18px; color: #666; margin-bottom: 32px;">ResXR comprises four hierarchical stages spanning Unity-based data collection and Python-based post-processing</p>
+      <p style="font-size: 18px; color: #666; margin-bottom: 32px;">ResXR comprises a Unity-based base template and a Python-based data pipeline</p>
       
       <div class="stages-grid">
-        <!-- Stage 0: Base Template -->
+        <!-- Stage 1: Base Template -->
         <div class="stage-card available">
-          <span class="stage-number">Stage 0</span>
+          <span class="stage-number">Stage 1</span>
           <h3 class="stage-title">Base Template</h3>
           <span class="status-badge status-available">Available</span>
           <p class="stage-description">Unity-based experiment template for multimodal data capture</p>
@@ -306,44 +335,35 @@
           </div>
         </div>
 
-        <!-- Stage 1: Data Validity -->
+        <!-- Stage 2: Data Pipeline -->
         <div class="stage-card coming-soon">
-          <span class="stage-number">Stage 1</span>
-          <h3 class="stage-title">Data Validity</h3>
+          <span class="stage-number">Stage 2</span>
+          <h3 class="stage-title">Data Pipeline</h3>
           <span class="status-badge status-coming-soon">Coming Soon</span>
-          <p class="stage-description">Quality checks and validation</p>
+          <p class="stage-description">Quality checks, preprocessing, reports, and export</p>
           <ul class="stage-features">
             <li>Configurable quality checks (e.g., tracking loss detection)</li>
             <li>Quality flags generation</li>
             <li>Automated validation pipeline</li>
-          </ul>
-        </div>
-
-        <!-- Stage 2: Data Filtration -->
-        <div class="stage-card coming-soon">
-          <span class="stage-number">Stage 2</span>
-          <h3 class="stage-title">Data Filtration</h3>
-          <span class="status-badge status-coming-soon">Coming Soon</span>
-          <p class="stage-description">Preprocessing pipeline</p>
-          <ul class="stage-features">
             <li>Excludes flagged segments</li>
             <li>Computes derived measures</li>
             <li>Automated preprocessing workflow</li>
-          </ul>
-        </div>
-
-        <!-- Stage 3: Data Presentation -->
-        <div class="stage-card coming-soon">
-          <span class="stage-number">Stage 3</span>
-          <h3 class="stage-title">Data Presentation</h3>
-          <span class="status-badge status-coming-soon">Coming Soon</span>
-          <p class="stage-description">Reports and export</p>
-          <ul class="stage-features">
             <li>Comprehensive HTML reports with diagnostic plots</li>
             <li>Analysis-ready export</li>
             <li>Visual quality assurance reports</li>
           </ul>
         </div>
+      </div>
+    </section>
+
+    <!-- Supported by -->
+    <section class="supported-by" aria-label="Supported by">
+      <div class="supported-by-label">Supported by</div>
+      <div class="supported-by-logos">
+        <img src="Logos/LOGO-ERC.png" alt="ERC" loading="lazy" decoding="async" style="--logo-h: 80px; margin-right: 13px;" />
+        <img src="Logos/Miverva%20center%20for%20mixed%20realities%20logo.png" alt="Minerva Center for Mixed Realities" loading="lazy" decoding="async" style="--logo-h: 60px;" />
+        <img src="Logos/mpg_logo_final_minerva_stiftung_rgb_mpg-green.png" alt="Minerva Stiftung (MPG)" loading="lazy" decoding="async" style="--logo-h: 80px;" />
+        <img src="Logos/samueli.svg" alt="Samueli" loading="lazy" decoding="async" style="--logo-h: 50px;" />
       </div>
     </section>
 
