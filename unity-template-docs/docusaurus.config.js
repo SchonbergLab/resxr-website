@@ -78,7 +78,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/NoaTAU/TAUXR-Research-Template-Updated',
+            href: 'https://github.com/ResXR/resxr-unity-research-template',
             label: 'GitHub',
             position: 'right',
           },
